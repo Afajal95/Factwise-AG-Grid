@@ -1,0 +1,52 @@
+.ag-theme-custom {
+  --ag-background-color: hsl(0 0% 100%);
+  --ag-foreground-color: hsl(222 47% 11%);
+  --ag-header-background-color: hsl(210 20% 98%);
+  --ag-header-foreground-color: hsl(215 16% 47%);
+  --ag-row-hover-color: hsl(210 20% 98%);
+  --ag-selected-row-background-color: hsl(217 91% 60% / 0.06);
+  --ag-range-selection-border-color: hsl(217 91% 60%);
+  --ag-border-color: transparent;
+  --ag-row-border-color: hsl(214 32% 91%);
+  --ag-header-height: 44px;
+  --ag-row-height: 48px;
+  --ag-cell-horizontal-padding: 16px;
+  --ag-font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --ag-font-size: 14px;
+  --ag-header-font-size: 12px;
+  --ag-header-font-weight: 500;
+  --ag-checkbox-checked-color: hsl(217 91% 60%);
+  --ag-input-focus-border-color: hsl(217 91% 60%);
+  --ag-borders: none;
+  --ag-row-border-style: solid;
+  --ag-row-border-width: 1px;
+  --ag-wrapper-border-radius: 8px;
+  --ag-card-radius: 8px;
+}
+
+.ag-theme-custom .ag-header-cell-text {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.ag-theme-custom .ag-header {
+  border-bottom: 1px solid hsl(214 32% 91%);
+}
+
+.ag-theme-custom .ag-row {
+  transition: background-color 0.15s cubic-bezier(0.2, 0, 0, 1);
+}
+
+.ag-theme-custom .ag-cell-focus:not(.ag-cell-range-selected) {
+  outline: 2px solid hsl(217 91% 60%);
+  outline-offset: -2px;
+  border-radius: 2px;
+}
+
+.ag-theme-custom .ag-root-wrapper {
+  border: none !important;
+}
+
+.ag-theme-custom .ag-paging-panel {
+  border-top: 1px solid hsl(214 32% 91%);
+}
